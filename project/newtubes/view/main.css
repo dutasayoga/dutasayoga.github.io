@@ -1,0 +1,52 @@
+#header {
+  font-size: 150px;
+  color: rgb(40, 40, 40);
+  text-align: center;
+  background-color: #FFF;
+}
+
+#subtitle {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#navbar {
+  background-color: rgb(52, 73, 94);
+}
+
+#navbar div ul li a {
+  color: white;
+}
+
+#MenuBar1 ul {
+  background-color: rgb(52, 73, 94);
+  border: 1px solid dimgray;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#MenuBar1 ul li {
+  float: left;
+  text-align: center;
+  width: 16%;
+}
+
+#MenuBar1 ul li a {
+  text-decoration: none;
+  color: white
+}
+
+#MenuBar1 ul li.right {
+  float: right;
+}
+
+#jper {
+  text-align: center;
+}

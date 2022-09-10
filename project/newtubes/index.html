@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>PetShop | HyPet</title>
+		<link rel="stylesheet"  href="view/responsive.css">
+
+		<meta name="viewport" content-type="width=device-width" />
+	</head>
+	<body>
+		<header>
+			<div id="header">H y P E T
+			</div>
+			<div id="subtitle">P e t   S h o p & C a r e</div>
+
+      </header>
+
+         <nav>
+   			<div id="MenuBar1">
+               <ul>
+   					<li><a href="index.php">Home</a></li>
+   					<li><a href="product.php">Product</a></li>
+   					<li><a href="keranjang.php" >Keranjang</a></li>
+						<li><a href="mainReserve.php" >Reserve</a></li>
+						<li><a href="login_customer.php" >LOGIN</a></li>
+   					<li class="right"><a href="Registrasi_Pelanggan.php">Daftar</a></li>
+   				</ul>
+   			</div>
+       	</nav>
+		<article>
+			<div class="container">
+				<div style="display:block"><img src="Images/Images_Dobremen.jpg" /></div>
+				<div><img src="Images/Images_Golden.jpg"/></div>
+				<div><img src="Images/Images_rabbit.jpg"/></div>
+				<div><img src="Images/Images_snake.jpg"/></div>
+				<button class="btn "id="next">&#10094;</button>
+				<button class="btn "id="prev">&#10095;</button>
+			</div>
+		</article>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			   var index = 0,
+			      items = $('.container div'),
+			      total = items.length;
+
+			   function slide() {
+			      var item = $('.container div').eq(index);
+			      items.hide();
+			      item.css('display', 'block');
+			   }
+
+			   var autoslide = setInterval(function(){
+			      index += 1;
+			      if (index > total - 1 ) index = 0;
+			      slide();
+			   }, 5000);
+
+				$('#next').click(function(){
+					index += 1;
+					if (index > total - 1 ) index = 0;
+					slide();
+				});
+
+				$('#prev').click(function(){
+					index -= 1;
+					if (index < total - 0 ) index = total -1;
+					slide();
+				});
+
+			});
+
+	   </script>
+
+<footer class="page-footer">
+	<div class="page_bottom">
+	   <div class="row">
+		  <ul>
+			 <li> <a href="about.php">About</a> </li>
+
+		  </ul>
+	   </div>
+	</div>
+
+	<div class="footer-copyright">
+	   <div class="copyright">
+		  &copy; HyPET
+	   </div>
+	</div>
+ </footer>
+</body>
+</html?
+

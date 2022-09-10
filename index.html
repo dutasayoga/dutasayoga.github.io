@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo/logo.png">
+
+    
+
+    <title>Duta Sayoga</title>
+
+</head>
+<!-- Modal -->
+<div class="modal" id="demoTA" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content modaldemota">
+            <div class="modal-body">
+                <video aria-hidden="true" width="100%" height="100%" controls>
+                    <source src="assets/video/Demo-TA.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="demoFER" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content modaldemota">
+            <div class="modal-body">
+                <video aria-hidden="true" width="100%" height="100%" controls>
+                    <source src="assets/video/demo-komvis.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div class="preloader"></div>
+
+    <div >
+        <nav id="header" class="navbar navbar-expand-md   bg-transparent ">
+            <div class="container">
+                <h1 class="navbar-brand " href="#"><b>Duta Sayoga</b></h1>
+                <h1 class="navbar-brand2 " style="visibility: hidden;"><b>D S</b></h1>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="tes123" class="navbar-nav ms-auto mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link actived nav-home" aria-current="page" href="#body">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  nav-project" href="#slider">Project</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-about" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-contact" href="#contact">Contact me</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+<div>
+    <section id="body">
+        <div class="container">
+            <div class="row" style="margin-top: 22px; ">
+                <div class="col-sm-6 img-border" style="padding-top: 10px;">
+                    <img src="assets/img/imgblue.png" alt="Duta Sayoga" class="img img-main">
+                </div>
+                <div class="col-sm-6 description">
+                    <h3 class="moto" >NOTHING CAN BE SOMETHING.</h3>
+                    <h1 class="main-desc"><b>I'm Software Developer,</b></h1>
+                    <h1 class="main-desc2"><b>Duta Sayoga</b></h1>
+                    <br>
+                    <p class="desc" style="text-align: justify;">I'm junior software developer from Indonesia especially in web development, web design, and computer vision. Graduated from Telkom University in 2020. If you are interested in me click on this button below for a complete resume. Thank you and have a wonderful day!
+                    </p>
+                    <div style="text-align: center;">
+                        <a href="assets/dutasayogacv.pdf" download><button class="btn bt-download">Download
+                                CV</button></a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section id="slider" class="">
+        <div class="container">
+            <div class="slider">
+                <div class="owl-carousel">
+                    <div class="slider-card">
+                        <div class="d-flex justify-content-center align-items-center mb-4">
+                            <img src="images/comvis.jpg" alt="">
+                        </div>
+
+                        <h5 class="mb-0 text-center title-text"><a class="slider-link" href=""><b>Facial Expression Recognition
+                                    Using Computer Vision</b></a></h5>
+                        <p class=" text-center p-3 justify-content-center textdesc">Detect facial expression on people, whenever they are sad, happy,
+                            mad, etc built with Python and Tensorflow</p>
+                        <div class="justify-content-center text-center btn-gr ">
+                            <div class="slider-btn">
+                                <div class="slider-btn">
+                                    <button class="btn-sm btn-primary" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#demoFER">demo</button>
+                                </div>
+                            </div>
+
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary"
+                                    onclick=" window.open('https://github.com/dutasayoga/facial_emotion_recognition_using_CNN')">source</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="slider-card">
+                        <div class="d-flex justify-content-center align-items-center mb-4">
+                            <img src="images/olshop.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0 text-center title-text"><a href="" class="slider-link"><b>HyPET Pet Shop and Care</b></a>
+                        </h5>
+                        <p class="text-center p-3 justify-content-center textdesc"> Pet shop and care management system built using PHP,Bootstrap,MySQL
+                        </p>
+                        <div class="justify-content-center text-center btn-group-custom btn-gr">
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary"
+                                    onclick=" window.open('https://hypet.dutasayoga.repl.co')">demo</button>
+                            </div>
+
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary"
+                                    onclick=" window.open('https://github.com/dutasayoga/Hypet')">source</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <div class="d-flex justify-content-center align-items-center mb-4">
+                            <img src="images/iot.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0 text-center title-text"><a href="" class="slider-link"><b>
+                                    Occupancy Detection using computer vision for IoT
+                                </b></a></h5>
+                        <p class="text-center justify-content-center p-3 textdesc"> Detect occupancy on room to save energy of electricity built with
+                            Python and Tensorflow</p>
+
+                        <div class="justify-content-center text-center btn-gr">
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#demoTA">demo</button>
+                            </div>
+
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary"
+                                    onclick=" window.open('controller/index.html')">controller</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <div class="d-flex justify-content-center align-items-center mb-4">
+                            <img src="images/mansys.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0 text-center title-text"><a href="" class="slider-link"><b>Intel Mansys</b></a></h5>
+                        <p class="text-center justify-content-center p-3 textdesc">Creating employee management to determine potential Talent, built
+                            with PHP MySQL</p>
+                        <div class="justify-content-center text-center btn-gr">
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary" type="button" >demo</button>
+                            </div>
+
+                            <div class="slider-btn">
+                                <button class="btn-sm btn-primary"
+                                    onclick=" window.open('https://github.com/dutasayoga/cakra1')">source</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="text-center">Experience</h1>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Company</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            
+                            <td>2017 May - June</td>
+                            <td>Trainee at PT. INTI <br> Corporate Service and Organization Development & HR System
+                            </td>
+                            
+                            
+                          </tr>
+                          <tr>
+                            
+                            <td>2018 June - August</td>
+                            <td>Trainee at PT. POS Indonesia <br> Marketing Division, Process and Delivery Division, and Service Division
+                            </td>
+                          </tr>
+
+                          <tr>
+                            
+                            <td>2020 - present</td>
+                            <td>DSfutSniper <br> Online Game coin farm and shop
+                            </td>
+                          </tr>
+        
+                        </tbody>
+                      </table>
+                </div>
+
+                <div class="col-sm-6">
+                    <h1 style="text-align: center;">Skill</h1>
+                    <div class="text-center">
+                        <br>
+                        <img src="assets/img/html.png" height="100px" width="100px" data-bs-toggle="tooltip" title="HTML 5">
+                        <img src="assets/img/js.png" height="100px" width="100px" data-bs-toggle="tooltip" title="Javascript">
+                        <br>
+                        <img src="assets/img/python.png" height="100px" width="100px" data-bs-toggle="tooltip" title="Python">
+                        <img src="assets/img/cplus.png" height="90px" width="90px" data-bs-toggle="tooltip" title="C++">
+                        <img src="assets/img/css.png" height="100px" width="100px" data-bs-toggle="tooltip" title="CSS">
+                        <br>
+                        <img src="assets/img/iot.png" height="90px" width="90px" style="margin-top: 10px;" data-bs-toggle="tooltip" title="IoT">
+                        <img src="assets/img/sql.png" height="90px" width="90px" style="margin-top: 10px;" data-bs-toggle="tooltip" title="MySQL">
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1 class=""></h1>
+            <div class="row ">
+                <div class="col-sm-6">
+                    <form action="https://api.sheetmonkey.io/form/8U3RXfvu43QGfFD2ZMm3bG" method="post">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="email"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">message</label>
+                            <textarea  type="text" class="form-control" id="message" rows="4" name="messsage"></textarea>
+                        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" value="submit" class="btn btn-primary btn-sm " id="submit-form">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="https://www.linkedin.com/in/dutasayoga/"><img
+                                    src="assets/logo/linkdin.png"></img> dutasayoga</a></li>
+                        <li class="list-group-item"><a href="mailto:dutasayoga@gmail.com"><img
+                                    src="assets/logo/mail.png"></img> dutasayoga@gmail.com</a></li>
+                        <li class="list-group-item"><a href="https://github.com/dutasayoga"><img
+                                    src="assets/logo/github.png"></img> dutasayoga</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-group">
+
+                        <li class="list-group-item"><a href="https://www.instagram.com/dutasayoga/"><img
+                                    src="assets/logo/ig.png"></img> dutasayoga</a></li>
+                        <li class="list-group-item"><a
+                                href="https://api.whatsapp.com/send/?phone=8121599600&text&type=phone_number&app_absent=0"><img
+                                    src="assets/logo/wa.png"></img> 08121599600</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+    <footer class="text-center ">
+
+        <p class="fw-bold">Created with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                class="bi bi-heart" viewBox="0 0 16 16">
+                <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+            </svg> Duta Sayoga</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

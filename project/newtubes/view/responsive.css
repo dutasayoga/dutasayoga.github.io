@@ -1,0 +1,336 @@
+body {
+  width: 100%;
+  height: 700px;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+#header {
+  font-size: 150px;
+  color: rgb(40, 40, 40);
+  text-align: center;
+  background-color: #FFF;
+  font-family: sans-serif;
+}
+
+#subtitle {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 3px;
+  position: relative;
+}
+
+.container div {
+  display: none;
+}
+
+.container img {
+  width: 60%;
+  height: 60%;
+  margin-left: 19%;
+  margin-right: 19%;
+}
+
+.container>.btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: none;
+  top: 45%;
+  border-radius: 25px;
+  opacity: 10;
+}
+
+.container #next {
+  float: left;
+  margin-left: 19%;
+}
+
+.container>#prev {
+  float: right;
+  margin-left: 77.15%;
+}
+
+container {
+  width: auto;
+  height: 700px;
+}
+
+#login_container {
+  background-image: url('../Images/home_sec.jpg');
+  background-size: cover;
+  height: 700px;
+  padding-top: 100px;
+  display: block;
+}
+
+#registrasi_customer {
+  background-image: url('../Images/home_sec.jpg');
+  background-size: cover;
+  height: 700px;
+  display: block;
+  padding-top: 70px;
+}
+
+#registrasi_pegawai {
+  background-image: url('../Images/home_sec.jpg');
+  background-size: cover;
+  height: 700px;
+  display: block;
+  padding-top: 70px;
+}
+
+#Pendaftaran_pegawai {
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  background-color: rgba(52, 73, 94, 0.8);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+.male, .female {
+  width: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(52, 73, 94, 0.8);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+#Pendaftaran {
+  background-color: rgba(52, 73, 94, 0.8);
+  width: 500px;
+  height: 640px;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#main_reserve {
+  background-image: url('../Images/home_sec.jpg');
+  background-size: cover;
+  height: 900px;
+  display: block;
+  padding-top: 70px;
+}
+
+#resev {
+  background-color: rgba(52, 73, 94, 0.8);
+  width: 500px;
+  height: 800px;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.header_text {
+  background-color: rgb(52, 73, 94);
+  font-size: 50px;
+  border-bottom: 1px solid dimgray;
+  color: white;
+}
+
+input {
+  height: 45px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  margin-top: 28px;
+}
+
+#btn {
+  color: #fff;
+  background: #337ab7;
+  padding: 15px 25px;
+  border: none;
+}
+
+#MenuBar1 ul {
+  background-color: rgb(52, 73, 94);
+  border: 1px solid dimgray;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#MenuBar1 ul li {
+  float: left;
+  text-align: center;
+  width: 16%;
+}
+
+#MenuBar1 ul li a {
+  text-decoration: none;
+  color: white
+}
+
+#MenuBar1 ul li.right {
+  float: right;
+}
+
+footer {
+  background-color: rgb(52, 73, 94);
+  border: 1px solid dimgray;
+  width: 100%;
+  height: 100px;
+}
+
+.row ul {
+  font-size: 20px;
+  list-style: none;
+  margin-left: 3px;
+  padding-left: 3px;
+  color: white;
+}
+
+.row ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  font-size: 20px;
+  float: right;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  #menubar1 ul li {
+    width: 100%;
+    font-size: 80%;
+  }
+  #header {
+    font-size: 120px;
+  }
+}
+
+#reserve_header {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+}
+
+div.container_reserve {
+  width: 100%;
+  height: 600px;
+  background-image: url("../Images/home_sec.jpg");
+  background-size: cover;
+}
+
+.reserve_flex {
+  display: flex;
+}
+
+.reserve_flex>div {
+  width: 26.3%;
+  height: 450px;
+  margin-left: 5%;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  background-color: rgba(52, 73, 94, 0.8);
+  color: white;
+}
+
+.header_flex_one, .header_flex_two, .header_flex_three {
+  background-color: rgb(52, 73, 94);
+  border-bottom: 1px solid dimgrey;
+  font-size: 35px;
+}
+
+input#btn {
+  width: 180px;
+}
+
+.btn_reserve {
+  position: center;
+  color: blue;
+  margin-left: 43%;
+}
+
+.jobOption {
+  height: 50px;
+  width: 334px;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.About {
+  width: 40%;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(52, 73, 94, 0.82);
+  shape-outside: circle();
+  box-shadow: 10px 10px 5px grey;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.About h1{
+  padding-top: 5px;
+  text-align: center;
+}
+
+.About p{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.unregistered {
+  color: white;
+}
+
+.buttonregistrasi {
+  width: 200px;]
+  height: 40px;
+  padding-left: 5px;
+}
+
+.petSexChoice {
+  width: 330px;
+  height: 50px;
+  font-size: 24px;
+  margin-top: 20px;
+}

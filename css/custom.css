@@ -1,0 +1,330 @@
+@media only screen and (max-width: 600px) {
+    .navbar-brand>b {
+        
+        content: 'nasa';       
+    }
+
+    .navbar-brand2>b{
+        display: block;
+        color: black;
+    }
+
+    .list-group {
+        scale: 0.9;
+    }
+
+    #body, #about{
+        
+    }
+
+    .img-main {
+        display: none;
+    }
+
+    .description::after {
+        padding-top: 0px;
+        text-align: center;
+    }
+}
+
+.img-main {
+    height: auto;
+    width: 60vh;
+}
+
+.img-border {
+
+}
+
+.navbar {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+section {
+   padding-top: 12vh;
+   height: 100vh;
+}
+
+
+.nav-item {
+    margin-right: 35px;
+}
+
+.nav-link {
+    color: #002d5b;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: currentColor;
+    font-weight: bold;
+}
+
+.actived {
+    border-bottom: 2px solid currentColor;
+    line-height: 1.4;
+    color: currentColor;
+    font-weight: bold;
+}
+
+.modaldemota {
+    background: transparent;
+    border: #fff;
+}
+
+#header {
+    color: #002d5b;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding-top: 1vh;
+}
+
+#about, #contact {
+    padding-top: 20vh;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@import url(http://fonts.googleapis.com/css?family=Rufina:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+@media only screen and (min-width:650px) {
+    .description {
+        padding-top: 20vh;
+        font-family: 'Roboto', serif;
+    }
+}
+
+
+.moto {
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    color: #ec5b53;
+}
+
+.main-desc {
+    font-size: 35px;
+    color: #002d5b;
+    font-family: 'Rufina', serif;
+
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main-desc2 {
+    color: #002d5b;
+    font-family: 'Rufina', serif;
+
+    font-size: 39px;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+}
+
+.desc {
+    color: #212529;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+
+.bt-download {
+    border: 1px solid #EC5B53;
+    border-radius: 10px;
+}
+
+.card {
+    margin-bottom: 5px;
+}
+
+footer {
+    box-shadow: 2px -8px 20px rgb(228, 228, 228);
+    background-color: rgb(251,251,253);
+    margin-bottom: -10px;
+    height: 5vh;
+    
+}
+
+footer>p {
+    padding: 10px 10px 10px 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'rubik', sans-serif;
+  font-size: 1em;
+  overflow-y: hidden;
+  scroll-behavior:smooth;
+}
+
+.btn:hover {
+    background-color: #EC5B53;
+    color: #fff;
+    transform: scale(1.1);
+
+}
+
+#slider {
+    background-color: rgb(237 229 229 / 48%);
+    box-shadow: 2px 4px 8px #888888;
+    padding-bottom: 2px;
+}
+
+.projectstitle{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textdesc {
+    font-size: 14px;
+}
+
+.slider-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.btn-gr {
+    padding-bottom: 20px;
+}
+
+.slider-btn{
+    padding-bottom: 5px;
+    margin-top: 0px;
+    display: none;
+}
+
+.slider-btn>.btn-sm{
+    background-color: #FF5C35;
+    color: #ffffff;
+    border-style: hidden;
+    padding: 2px 5px 2px 5px;
+    font-size: 13px;
+}
+
+.slider .owl-item.active.center .slider-btn {
+    display: block;
+}
+
+
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.slider .owl-item.active.center .slider-link {
+    color: #002d5b;
+    font-size: 20px;
+    font-family: 'Rufina', serif;
+    font-weight: 600;
+    padding-right: 2px;
+    padding-left: 2px;
+
+}
+
+.text-desc-content {
+    font-family: 'Rufina', serif;
+    font-weight: 500;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.slider-card {
+  background: #fff;
+  color: black;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+
+#body {
+    background: rgb(224,229,232);
+}
+
+#about {
+    background: #1F1D2B;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+.table {
+    margin-top: 80px;
+    color: #fff;
+    border: #1F1D2B;
+    font-size: 13px;
+}
+
+.list-group-item>a{
+    text-decoration: none;
+    color: black;
+    border: #fff;
+}
+
+.list-group-item{
+    border: #fff;
+}
+
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background-image: url('../assets/img/preload.svg');
+    background-repeat: no-repeat; 
+    background-color: #0d2d5a;
+    background-position: center;
+ }
+
+ #contact {
+    height: 95vh;
+ }
